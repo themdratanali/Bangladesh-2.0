@@ -1,0 +1,551 @@
+/* Importing font family */
+.fira-sans-regular {
+  font-family: "Poppins", serif; /* Using Poppins for main font */
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Resetting default margin, padding and setting box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Shared button styles */
+.primary-btn {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 12px 30px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect for primary button */
+.primary-btn:hover {
+  background-color: #028f6c;
+}
+
+/* Sign-in button styles */
+.sign-in-btn {
+  color: #006a50;
+  padding: 15px 35px;
+  border: 2px solid #006a50;
+  border-radius: 5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect for sign-in button */
+.sign-in-btn:hover {
+  color: #ffffff;
+  background-color: #006a50;
+}
+
+/* Explore button styles */
+.explore-btn {
+  background: #006a50;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect for explore button */
+.explore-btn:hover {
+  opacity: 0.8;
+}
+
+/* Section titles */
+.section-title {
+  color: #040404;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* Section description styles */
+.section-description {
+  color: #057005;
+  line-height: 1.8;
+  text-align: center;
+  font-size: 1rem;
+}
+
+/* Body background color */
+body {
+  background-color: #f9f9f9;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+/* General layout for header and main sections */
+header,
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navbar layout and styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+
+/* Logo styles */
+.logo h3 {
+  color: #0e0e0e;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+/* Hero section layout */
+.hero-container {
+  display: flex;
+  padding: 80px 100px;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background: #c6e4d6;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+/* Hero subtitle text */
+.hero-subtitle {
+  color: rgba(14, 14, 14, 0.6);
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+/* Hero title styling */
+.hero-title {
+  color: #0e0e0e;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Hero title link styling */
+.hero-title a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Hero image styling */
+.hero-img {
+  width: 400px;
+}
+
+/* Pillar section title */
+.pillar-title {
+  color: #0e0e0e;
+  margin-bottom: 45px;
+  font-size: 1.8rem;
+}
+
+/* Layout for pillar card section */
+.pillar-card-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+/* Pillar card description text */
+.pillar-section-description {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Pillar card styles */
+.pillar-card {
+  padding: 30px;
+  border-radius: 15px;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  background: #fff;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover effect for pillar cards */
+.pillar-card:hover {
+  transform: translateY(-10px);
+}
+
+/* Pillar card title */
+.pillar-card-title {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+/* Pillar card image */
+.pillar-card-img {
+  width: 55px;
+}
+
+/* Pillar card description */
+.pillar-card-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 0.8rem;
+  line-height: 1.6;
+}
+
+/* Learn more button */
+.learn-more-btn {
+  font-size: 1rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background: #006a50;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect for learn more button */
+.learn-more-btn:hover {
+  background-color: #028f6c;
+}
+
+/* Button color variations */
+.btn-color-blue {
+  background: #5490f5;
+}
+
+.btn-color-green {
+  background: #09a15c;
+}
+
+.btn-color-yellow {
+  background: #ffc239;
+}
+
+/* Vision card styles */
+.vision-card-blue {
+  border-radius: 15px;
+  background: rgba(84, 144, 245, 0.1);
+}
+
+.vision-card-green {
+  border-radius: 15px;
+  background: #c6e4d6;
+}
+
+.vision-card-yellow {
+  border-radius: 15px;
+  background: #f7ebcf;
+}
+
+/* Vision card container */
+.vision-card-container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* Vision card description text */
+.vision-card-description {
+  margin-bottom: 20px;
+}
+
+/* Quotes section layout */
+.quotes {
+  display: flex;
+  padding: 40px 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1 0 0;
+  border-radius: 15px;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  background: #fff;
+  background-image: url(../assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-position: 20px 30px;
+  margin-top: 85px;
+  margin-bottom: 85px;
+}
+
+/* Quotes text */
+.quotes p {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Quote title */
+.quotes .title {
+  color: rgba(14, 14, 14, 0.6);
+}
+
+/* Quote author name */
+.quotes h4 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+/* News section */
+.news {
+  margin-bottom: 100px;
+}
+
+.news-section-title {
+  margin-top: 80px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+/* News section description */
+.news-section-description {
+  color: rgba(14, 14, 14, 0.7);
+  line-height: 1.6;
+  font-size: 1rem;
+  margin-bottom: 40px;
+}
+
+/* News container layout */
+.news-container {
+  display: flex;
+  padding: 40px;
+  align-items: center;
+  gap: 40px;
+  border-radius: 20px;
+  background: #fff;
+  margin-bottom: 60px;
+}
+
+/* News image */
+.news-img img {
+  width: 450px;
+  border-radius: 15px;
+}
+
+/* News title */
+.news-content-title {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+/* Info section in news */
+.info img {
+  width: 120px;
+}
+
+/* Info description */
+.info p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* Read more button */
+.read-more-btn {
+  padding: 12px 30px;
+  background: #006a50;
+  margin-top: 40px;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect for read more button */
+.read-more-btn:hover {
+  background-color: #028f6c;
+}
+
+/* Donation section */
+.donation-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+/* Donation description */
+.donation-container .donation-description {
+  color: rgba(14, 14, 14, 0.7);
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 24px 100px;
+}
+
+/* Donation title */
+.donation-container h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+/* Donation amount container */
+.donation-amount-container {
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 15px;
+  gap: 70px;
+  margin-bottom: 40px;
+}
+
+/* Donation amount button */
+.donation-amount {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect for donation amount */
+.donation-amount:hover {
+  background-color: #c6e4d6;
+}
+
+/* Highlighted donation amount */
+.hilight {
+  background-color: #c6e4d6;
+}
+
+/* Input text field */
+input[type="text"] {
+  display: block;
+  padding: 20px 30px;
+  width: 67%;
+  background: #fff;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  font-size: 1rem;
+  color: rgba(14, 14, 14, 0.7);
+  text-align: center;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+/* Donate button */
+.donate-btn {
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  background: #006a50;
+  padding: 18px 35px;
+  font-size: 1rem;
+  color: #fff;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect for donate button */
+.donate-btn:hover {
+  background-color: #0a9b77;
+}
+
+/* Footer styles */
+.footer {
+  background: #fff;
+  display: flex;
+  padding: 40px 80px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Footer separator */
+.footer hr {
+  width: 100%;
+  height: 1px;
+  background: rgba(14, 14, 14, 0.1);
+  border: none;
+}
+
+/* Social media icon layout */
+.footer .social-media {
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+}
+
+/* Social media icons */
+.footer .social-media i {
+  font-size: 1.5rem;
+  color: #0e0e0e;
+}
+
+/* Newsletter section */
+.newsletter {
+  text-align: center;
+  padding: 80px 100px;
+  border-radius: 20px;
+  background: #c6e4d6;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+/* Newsletter description text */
+.newsletter p {
+  color: rgba(14, 14, 14, 0.7);
+  margin: 0 auto;
+  margin-top: 15px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Email input container */
+.email-container {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0;
+}
+
+/* Text box for email */
+.text-box {
+  border: none;
+  outline: none;
+  padding: 18px 35px;
+  border-radius: 10px 0px 0px 10px;
+  width: 500px;
+  font-size: 1rem;
+}
+
+/* Button for subscribing */
+.btn {
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 18px 35px;
+  border-radius: 0px 10px 10px 0px;
+  background: #006a50;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect for subscribe button */
+.btn:hover {
+  background-color: #0c9673;
+}
